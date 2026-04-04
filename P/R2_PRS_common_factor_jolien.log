@@ -1,0 +1,30 @@
+nohup: ignoring input
+Warning message:
+package ‘data.table’ was built under R version 4.4.3 
+                      phenotype       prs       type     R2_null     R2_full
+                         <char>    <char>     <char>       <num>       <num>
+   1:                       age  Pt_5e-08 continuous 0.002977847 0.002979803
+   2:                       age  Pt_1e-05 continuous 0.002977847 0.002990677
+   3:                       age  Pt_5e-05 continuous 0.002977847 0.003004098
+   4:                       age Pt_0.0001 continuous 0.002977847 0.003010207
+   5:                       age  Pt_0.001 continuous 0.002977847 0.003037690
+  ---                                                                       
+4819: MDD2.w.noimpairascontrols    Pt_0.2     binary 0.001537254 0.016345013
+4820: MDD2.w.noimpairascontrols    Pt_0.3     binary 0.001537254 0.016400723
+4821: MDD2.w.noimpairascontrols    Pt_0.4     binary 0.001537254 0.016315927
+4822: MDD2.w.noimpairascontrols    Pt_0.5     binary 0.001537254 0.016326553
+4823: MDD2.w.noimpairascontrols      Pt_1     binary 0.001537254 0.016446659
+          delta_R2      N
+             <num>  <int>
+   1: 1.956000e-06 337126
+   2: 1.283016e-05 337126
+   3: 2.625067e-05 337126
+   4: 3.235963e-05 337126
+   5: 5.984334e-05 337126
+  ---                    
+4819: 1.480776e-02 110216
+4820: 1.486347e-02 110216
+4821: 1.477867e-02 110216
+4822: 1.478930e-02 110216
+4823: 1.490940e-02 110216
+[1] "Done!"

@@ -1,0 +1,95 @@
+nohup: ignoring input
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.4.3 
+Warning message:
+package ‘readr’ was built under R version 4.4.3 
+Warning message:
+package ‘tidyr’ was built under R version 4.4.3 
+Warning message:
+package ‘stringr’ was built under R version 4.4.3 
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 
+There were 25 warnings (use warnings() to see them)
+Analysis started at2026-02-15 19:31:25.713691
+The following traits are being analyzed analyzed:Clin
+
+ The following traits are being analyzed analyzed:Comm
+
+ The following traits are being analyzed analyzed:Neu
+
+The following annotations were added to the model: 
+/local1/hdata/REF/baseline_v2.2/
+ /local1/scratch/pazweifel/single_cell_Duncan_og_combined/
+
+Reading in LD scores from /local1/hdata/REF/baseline_v2.2/.[1-22]
+
+Reading in LD scores from /local1/scratch/pazweifel/single_cell_Duncan_og_combined/.[1-22]
+
+LD scores contain 1195112 SNPs and 559 annotations
+
+Reading in weighted LD scores from /local1/hdata/REF/eur_w_ld_chr/.[1-22]
+
+Weighted LD scores contain 1371460 SNPs
+ 
+Reading in annotation files. This step may take a few minutes.
+Read in summary statistics [1/3] from: /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gz
+Out of 4237071 SNPs, 988606 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 988606 remain
+Read in summary statistics [2/3] from: /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_community_no23andMe_wbeta_use_neff.sumstats.gz
+Out of 4249140 SNPs, 977805 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 123.01; 977805 remain
+Read in summary statistics [3/3] from: /local1/scratch/pazweifel/sumstats_ambits/munged/Neu.sumstats.gz
+Out of 1146831 SNPs, 1087440 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 390.278; 1087440 remain
+Liability h2:0.1876(0.0127)
+
+Lambda GC:1.3719
+Mean Chi^2:1.4779
+Intercept: 1.051(0.0141)
+Ratio: 0.1068(0.0295)
+Partitioning the heritability over the annotations
+1081234 SNPs remain after merging /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gz and /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_community_no23andMe_wbeta_use_neff.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gzand/local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_community_no23andMe_wbeta_use_neff.sumstats.gz
+Mean Z*Z:0.3534
+Cross trait Intercept: 0.0585(0.0099)
+cov_g:0.1404(0.0097)
+Partitioning the genetic covariance over the annotations
+1070979 SNPs remain after merging /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gz and /local1/scratch/pazweifel/sumstats_ambits/munged/Neu.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gzand/local1/scratch/pazweifel/sumstats_ambits/munged/Neu.sumstats.gz
+Mean Z*Z:0.0994
+Cross trait Intercept: 0.0043(0.013)
+cov_g:0.0289(0.008)
+Partitioning the genetic covariance over the annotations
+Liability h2:0.0542(0.0052)
+
+Lambda GC:1.2234
+Mean Chi^2:1.2555
+Intercept: 1.0309(0.0115)
+Ratio: 0.1211(0.0451)
+Partitioning the heritability over the annotations
+1061338 SNPs remain after merging /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_community_no23andMe_wbeta_use_neff.sumstats.gz and /local1/scratch/pazweifel/sumstats_ambits/munged/Neu.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_community_no23andMe_wbeta_use_neff.sumstats.gzand/local1/scratch/pazweifel/sumstats_ambits/munged/Neu.sumstats.gz
+Mean Z*Z:0.1532
+Cross trait Intercept: 0.0204(0.0115)
+cov_g:0.0274(0.0049)
+Partitioning the genetic covariance over the annotations
+h2:0.1022(0.0047)
+
+Lambda GC:1.5999
+Mean Chi^2:1.827
+Intercept: 1.0532(0.0156)
+Ratio: 0.0644(0.0188)
+Partitioning the heritability over the annotations
+Analysis ended at 2026-02-15 19:41:31.581834
+Analysis took 10 minutes and 5.86814284324646 seconds

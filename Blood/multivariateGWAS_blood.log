@@ -1,0 +1,39 @@
+nohup: ignoring input
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.4.3 
+Warning message:
+package ‘readr’ was built under R version 4.4.3 
+Warning message:
+package ‘tidyr’ was built under R version 4.4.3 
+Warning message:
+package ‘stringr’ was built under R version 4.4.3 
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 
+There were 25 warnings (use warnings() to see them)
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+Warning message:
+package ‘data.table’ was built under R version 4.4.3 
+Starting commonfactorGWAS run at 1770396522 
+[1] "Please note that an update was made to userGWAS on Sept 1 2023  so that the default behavior is to fix the measurement model using the fix_measurement argument."
+[1] "Starting GWAS Estimation"
+ elapsed 
+13283.79 
+Model finished in 221.82 minutes.
+Finished at 1770409832 

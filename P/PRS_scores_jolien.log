@@ -1,0 +1,72 @@
+nohup: ignoring input
+PRSice 2.3.5 (2021-09-20) 
+https://github.com/choishingwan/PRSice
+(C) 2016-2020 Shing Wan (Sam) Choi and Paul F. O'Reilly
+GNU General Public License v3
+If you use PRSice in any published work, please cite:
+Choi SW, O'Reilly PF.
+PRSice-2: Polygenic Risk Score Software for Biobank-Scale Data.
+GigaScience 8, no. 7 (July 1, 2019)
+2025-11-21 15:44:10
+/local1/home/pazweifel/bin/PRSice_linux \
+    --a1 A1 \
+    --a2 A2 \
+    --bar-levels 5e-08,1e-05,5e-05,0.0001,0.001,0.01,0.05,0.1,0.2,0.3,0.4,0.5,1 \
+    --base /local1/home/pazweifel/src/common_factor_jolien/mental_common_factor_filtered.tsv.gz \
+    --base-maf MAF:0.05 \
+    --beta  \
+    --binary-target F \
+    --bp BP \
+    --chr CHR \
+    --clump-kb 250kb \
+    --clump-p 1.000000 \
+    --clump-r2 0.100000 \
+    --fastscore  \
+    --no-regress  \
+    --num-auto 22 \
+    --out /local1/scratch/pazweifel/PRS/jolien_common_factor/score \
+    --pvalue Pval_Estimate \
+    --seed 3798249815 \
+    --snp SNP \
+    --stat est \
+    --target /local1/scratch/caina/ukb/genos/ukb_imp_v3_chr#.unrelatedbritishqced.maf001geno9.biallelic \
+    --thread 16
+
+Initializing Genotype file: 
+/local1/scratch/caina/ukb/genos/ukb_imp_v3_chr#.unrelatedbritishqced.maf001geno9.biallelic 
+(bed) 
+
+Start processing mental_common_factor_filtered.tsv 
+================================================== 
+
+Base file: 
+/local1/home/pazweifel/src/common_factor_jolien/mental_common_factor_filtered.tsv.gz 
+GZ file detected. Header of file is: 
+SNP CHR BP MAF A1 A2 i lhs op rhs est se_c Z_Estimate 
+Pval_Estimate Q Q_df Q_pval fail warning 
+
+Reading 100.00%
+5916624 variant(s) observed in base file, with: 
+1383084 variant(s) excluded due to MAF threshold 
+563266 ambiguous variant(s) excluded 
+3970274 total variant(s) included from base file 
+
+Loading Genotype info from target 
+================================================== 
+
+337198 people (156135 male(s), 181063 female(s)) observed 
+337198 founder(s) included 
+
+5778461 variant(s) not found in previous data 
+3941959 variant(s) included 
+
+Start performing clumping 
+
+Clumping Progress: 0.01%Clumping Progress: 0.02%Clumping Progress: 0.03%Clumping Progress: 0.04%Clumping Progress: 0.05%Clumping Progress: 0.06%Clumping Progress: 0.07%Clumping Progress: 0.08%Clumping Progress: 0.09%Clumping Progress: 0.10%Clumping Progress: 0.11%Clumping Progress: 0.12%Clumping Progress: 0.13%Clumping Progress: 0.14%Clumping Progress: 0.15%Clumping Progress: 0.16%Clumping Progress: 0.17%Clumping Progress: 0.18%Clumping Progress: 0.19%Clumping Progress: 0.20%Clumping Progress: 0.21%Clumping Progress: 0.22%Clumping Progress: 0.23%Clumping Progress: 0.24%Clumping Progress: 0.25%Clumping Progress: 0.26%Clumping Progress: 0.27%Clumping Progress: 0.28%Clumping Progress: 0.29%Clumping Progress: 0.30%Clumping Progress: 0.31%Clumping Progress: 0.32%Clumping Progress: 0.33%Clumping Progress: 0.34%Clumping Progress: 0.35%Clumping Progress: 0.36%Clumping Progress: 0.37%Clumping Progress: 0.38%Clumping Progress: 0.39%Clumping Progress: 0.40%Clumping Progress: 0.41%Clumping Progress: 0.42%Clumping Progress: 0.43%Clumping Progress: 0.44%Clumping Progress: 0.45%Clumping Progress: 0.46%Clumping Progress: 0.47%Clumping Progress: 0.48%Clumping Progress: 0.49%Clumping Progress: 0.50%Clumping Progress: 0.51%Clumping Progress: 0.52%Clumping Progress: 0.53%Clumping Progress: 0.54%Clumping Progress: 0.55%Clumping Progress: 0.56%Clumping Progress: 0.57%Clumping Progress: 0.58%Clumping Progress: 0.59%Clumping Progress: 0.60%Clumping Progress: 0.61%Clumping Progress: 0.62%Clumping Progress: 0.63%Clumping Progress: 0.64%Clumping Progress: 0.65%Clumping Progress: 0.66%Clumping Progress: 0.67%Clumping Progress: 0.68%Clumping Progress: 0.69%Clumping Progress: 0.70%Clumping Progress: 0.71%Clumping Progress: 0.72%Clumping Progress: 0.73%Clumping Progress: 0.74%Clumping Progress: 0.75%Clumping Progress: 0.76%Clumping Progress: 0.77%Clumping Progress: 0.78%Clumping Progress: 0.79%Clumping Progress: 0.80%Clumping Progress: 0.81%Clumping Progress: 0.82%Clumping Progress: 0.83%Clumping Progress: 0.84%Clumping Progress: 0.85%Clumping Progress: 0.86%Clumping Progress: 0.87%Clumping Progress: 0.88%Clumping Progress: 0.89%Clumping Progress: 0.90%Clumping Progress: 0.91%Clumping Progress: 0.92%Clumping Progress: 0.93%Clumping Progress: 0.94%Clumping Progress: 0.95%Clumping Progress: 0.96%Clumping Progress: 0.97%Clumping Progress: 0.98%Clumping Progress: 0.99%Clumping Progress: 1.00%Clumping Progress: 1.01%Clumping Progress: 1.02%Clumping Progress: 1.03%Clumping Progress: 1.04%Clumping Progress: 1.05%Clumping Progress: 1.06%Clumping Progress: 1.07%Clumping Progress: 1.08%Clumping Progress: 1.09%Clumping Progress: 1.10%Clumping Progress: 1.11%Clumping Progress: 1.12%Clumping Progress: 1.13%Clumping Progress: 1.14%Clumping Progress: 1.15%Clumping Progress: 1.16%Clumping Progress: 1.17%Clumping Progress: 1.18%Clumping Progress: 1.19%Clumping Progress: 1.20%Clumping Progress: 1.21%Clumping Progress: 1.22%Clumping Progress: 1.23%Clumping Progress: 1.24%Clumping Progress: 1.25%Clumping Progress: 1.26%Clumping Progress: 1.27%Clumping Progress: 1.28%Clumping Progress: 1.29%Clumping Progress: 1.30%Clumping Progress: 1.31%Clumping Progress: 1.32%Clumping Progress: 1.33%Clumping Progress: 1.34%Clumping Progress: 1.35%Clumping Progress: 1.36%Clumping Progress: 1.37%Clumping Progress: 1.38%Clumping Progress: 1.39%Clumping Progress: 1.40%Clumping Progress: 1.41%Clumping Progress: 1.42%Clumping Progress: 1.43%Clumping Progress: 1.44%Clumping Progress: 1.45%Clumping Progress: 1.46%Clumping Progress: 1.47%Clumping Progress: 1.48%Clumping Progress: 1.49%Clumping Progress: 1.50%Clumping Progress: 1.51%Clumping Progress: 1.52%Clumping Progress: 1.53%Clumping Progress: 1.54%Clumping Progress: 1.55%Clumping Progress: 1.56%Clumping Progress: 1.57%Clumping Progress: 1.58%Clumping Progress: 1.59%Clumping Progress: 1.60%Clumping Progress: 1.61%Clumping Progress: 1.62%Clumping Progress: 1.63%Clumping Progress: 1.64%Clumping Progress: 1.65%Clumping Progress: 1.66%Clumping Progress: 1.67%Clumping Progress: 1.68%Clumping Progress: 1.69%Clumping Progress: 1.70%Clumping Progress: 1.71%Clumping Progress: 1.72%Clumping Progress: 1.73%Clumping Progress: 1.74%Clumping Progress: 1.75%Clumping Progress: 1.76%Clumping Progress: 1.77%Clumping Progress: 1.78%Clumping Progress: 1.79%Clumping Progress: 1.80%Clumping Progress: 1.81%Clumping Progress: 1.82%Clumping Progress: 1.83%Clumping Progress: 1.84%Clumping Progress: 1.85%Clumping Progress: 1.86%Clumping Progress: 1.87%Clumping Progress: 1.88%Clumping Progress: 1.89%Clumping Progress: 1.90%Clumping Progress: 1.91%Clumping Progress: 1.92%Clumping Progress: 1.93%Clumping Progress: 1.94%Clumping Progress: 1.95%Clumping Progress: 1.96%Clumping Progress: 1.97%Clumping Progress: 1.98%Clumping Progress: 1.99%Clumping Progress: 2.00%Clumping Progress: 2.01%Clumping Progress: 2.02%Clumping Progress: 2.03%Clumping Progress: 2.04%Clumping Progress: 2.05%Clumping Progress: 2.06%Clumping Progress: 2.07%Clumping Progress: 2.08%Clumping Progress: 2.09%Clumping Progress: 2.10%Clumping Progress: 2.11%Clumping Progress: 2.12%Clumping Progress: 2.13%Clumping Progress: 2.14%Clumping Progress: 2.15%Clumping Progress: 2.16%Clumping Progress: 2.17%Clumping Progress: 2.18%Clumping Progress: 2.19%Clumping Progress: 2.20%Clumping Progress: 2.21%Clumping Progress: 2.22%Clumping Progress: 2.23%Clumping Progress: 2.24%Clumping Progress: 2.25%Clumping Progress: 2.26%Clumping Progress: 2.27%Clumping Progress: 2.28%Clumping Progress: 2.29%Clumping Progress: 2.30%Clumping Progress: 2.31%Clumping Progress: 2.32%Clumping Progress: 2.33%Clumping Progress: 2.34%Clumping Progress: 2.35%Clumping Progress: 2.36%Clumping Progress: 2.37%Clumping Progress: 2.38%Clumping Progress: 2.39%Clumping Progress: 2.40%Clumping Progress: 2.41%Clumping Progress: 2.42%Clumping Progress: 2.43%Clumping Progress: 2.44%Clumping Progress: 2.45%Clumping Progress: 2.47%Clumping Progress: 2.48%Clumping Progress: 2.49%Clumping Progress: 2.50%Clumping Progress: 2.51%Clumping Progress: 2.52%Clumping Progress: 2.53%Clumping Progress: 2.54%Clumping Progress: 2.55%Clumping Progress: 2.56%Clumping Progress: 2.57%Clumping Progress: 2.58%Clumping Progress: 2.59%Clumping Progress: 2.60%Clumping Progress: 2.61%Clumping Progress: 2.62%Clumping Progress: 2.63%Clumping Progress: 2.64%Clumping Progress: 2.65%Clumping Progress: 2.66%Clumping Progress: 2.67%Clumping Progress: 2.68%Clumping Progress: 2.69%Clumping Progress: 2.70%Clumping Progress: 2.71%Clumping Progress: 2.72%Clumping Progress: 2.73%Clumping Progress: 2.74%Clumping Progress: 2.75%Clumping Progress: 2.76%Clumping Progress: 2.77%Clumping Progress: 2.78%Clumping Progress: 2.79%Clumping Progress: 2.80%Clumping Progress: 2.81%Clumping Progress: 2.82%Clumping Progress: 2.83%Clumping Progress: 2.84%Clumping Progress: 2.85%Clumping Progress: 2.86%Clumping Progress: 2.87%Clumping Progress: 2.88%Clumping Progress: 2.89%Clumping Progress: 2.90%Clumping Progress: 2.91%Clumping Progress: 2.92%Clumping Progress: 2.93%Clumping Progress: 100.00%
+Number of variant(s) after clumping : 115558 
+
+Start calculating the scores 
+
+
+Start Processing
+Processing 0.00%Processing 7.69%Processing 15.38%Processing 23.08%Processing 30.77%Processing 38.46%Processing 46.15%Processing 53.85%Processing 61.54%Processing 69.23%Processing 76.92%Processing 84.62%Processing 92.31%Processing 100.00%Processing 100.00%

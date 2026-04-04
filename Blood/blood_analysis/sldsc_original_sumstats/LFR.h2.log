@@ -1,0 +1,87 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2-cts /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LFR.sumstats.gz \
+--ref-ld-chr /local1/hdata/REF/baseline_v2.2/Variant_effects_baselineLD_v2.2_baselineLD. \
+--out /local1/home/pazweifel/src/blood_analysis/LFR.h2 \
+--ref-ld-chr-cts /local1/scratch/pazweifel/single_cell_1k1k/single_cell_1k1k.local.ldcts \
+--w-ld-chr /local1/scratch/pazweifel/heritability_analysis/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC. 
+
+Beginning analysis at Thu Feb 26 17:53:51 2026
+Reading summary statistics from /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LFR.sumstats.gz ...
+Read summary statistics for 7013302 SNPs.
+Reading reference panel LD Score from /local1/hdata/REF/baseline_v2.2/Variant_effects_baselineLD_v2.2_baselineLD.[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1195112 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /local1/scratch/pazweifel/heritability_analysis/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC.[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1187349 SNPs.
+After merging with reference panel LD, 1043799 SNPs remain.
+After merging with regression SNP LD, 1027125 SNPs remain.
+Removed 122 SNPs with chi^2 > 80 (1027003 SNPs remain)
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/CD14_low_CD16_positive_monocyte.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/CD14_positive_monocyte.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/CD16_negative_CD56_bright_natural_killer_cell_human.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/CD4_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/CD4_positive_alpha_beta_cytotoxic_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/CD8_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/central_memory_CD4_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/central_memory_CD8_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/conventional_dendritic_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/dendritic_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/double_negative_thymocyte.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/effector_memory_CD4_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/effector_memory_CD8_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/erythrocyte.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/gamma_delta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/hematopoietic_precursor_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/innate_lymphoid_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/memory_B_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/mucosal_invariant_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/naive_B_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/naive_thymus_derived_CD4_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/naive_thymus_derived_CD8_positive_alpha_beta_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/natural_killer_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/peripheral_blood_mononuclear_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/plasmablast.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/plasmacytoid_dendritic_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/platelet.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/regulatory_T_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_1k1k/transitional_stage_B_cell.,/local1/scratch/pazweifel/single_cell_1k1k/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Results printed to /local1/home/pazweifel/src/blood_analysis/LFR.h2.cell_type_results.txt
+Analysis finished at Thu Feb 26 17:57:18 2026
+Total time elapsed: 3.0m:27.07s

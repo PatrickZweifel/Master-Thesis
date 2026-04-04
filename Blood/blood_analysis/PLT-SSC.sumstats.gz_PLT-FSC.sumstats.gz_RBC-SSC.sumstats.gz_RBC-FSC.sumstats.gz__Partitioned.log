@@ -1,0 +1,828 @@
+Analysis started at2026-03-13 01:30:17.377869
+The following traits are being analyzed analyzed:PLTSSC
+
+ The following traits are being analyzed analyzed:PLTFSC
+
+ The following traits are being analyzed analyzed:RBCSSC
+
+ The following traits are being analyzed analyzed:RBCFSC
+
+ The following traits are being analyzed analyzed:RETFSC
+
+ The following traits are being analyzed analyzed:IRFFSC
+
+ The following traits are being analyzed analyzed:NESSC
+
+ The following traits are being analyzed analyzed:NEFSC
+
+ The following traits are being analyzed analyzed:EOSSC
+
+ The following traits are being analyzed analyzed:EOFSC
+
+ The following traits are being analyzed analyzed:BASOFSC
+
+ The following traits are being analyzed analyzed:MOSSC
+
+ The following traits are being analyzed analyzed:MOFSC
+
+ The following traits are being analyzed analyzed:LYSSC
+
+ The following traits are being analyzed analyzed:LYFSC
+
+The following annotations were added to the model: 
+/local1/hdata/REF/baseline_v2.2/
+ /local1/scratch/pazweifel/single_cell_1k1k_respective/transitional_stage_B_cell/
+
+Reading in LD scores from /local1/hdata/REF/baseline_v2.2/.[1-22]
+
+Reading in LD scores from /local1/scratch/pazweifel/single_cell_1k1k_respective/transitional_stage_B_cell/.[1-22]
+
+LD scores contain 1195112 SNPs and 98 annotations
+
+Reading in weighted LD scores from /local1/hdata/REF/eur_w_ld_chr/.[1-22]
+
+Weighted LD scores contain 1371460 SNPs
+ 
+Reading in annotation files. This step may take a few minutes.
+Read in summary statistics [1/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz
+Out of 7012621 SNPs, 1085394 remain after merging with LD-score files
+Removing 222 SNPs with Chi^2 > 80; 1085172 remain
+Read in summary statistics [2/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz
+Out of 7012669 SNPs, 1085394 remain after merging with LD-score files
+Removing 268 SNPs with Chi^2 > 80; 1085126 remain
+Read in summary statistics [3/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz
+Out of 7012803 SNPs, 1085394 remain after merging with LD-score files
+Removing 112 SNPs with Chi^2 > 80; 1085282 remain
+Read in summary statistics [4/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz
+Out of 7013393 SNPs, 1085394 remain after merging with LD-score files
+Removing 394 SNPs with Chi^2 > 80; 1085000 remain
+Read in summary statistics [5/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz
+Out of 7013306 SNPs, 1085394 remain after merging with LD-score files
+Removing 336 SNPs with Chi^2 > 80; 1085058 remain
+Read in summary statistics [6/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz
+Out of 7013177 SNPs, 1085394 remain after merging with LD-score files
+Removing 197 SNPs with Chi^2 > 80; 1085197 remain
+Read in summary statistics [7/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Out of 7013194 SNPs, 1085389 remain after merging with LD-score files
+Removing 691 SNPs with Chi^2 > 80; 1084698 remain
+Read in summary statistics [8/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Out of 7013219 SNPs, 1085394 remain after merging with LD-score files
+Removing 264 SNPs with Chi^2 > 80; 1085130 remain
+Read in summary statistics [9/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Out of 7012793 SNPs, 1085392 remain after merging with LD-score files
+Removing 436 SNPs with Chi^2 > 80; 1084956 remain
+Read in summary statistics [10/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Out of 7012866 SNPs, 1085394 remain after merging with LD-score files
+Removing 75 SNPs with Chi^2 > 80; 1085319 remain
+Read in summary statistics [11/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Out of 7012928 SNPs, 1085394 remain after merging with LD-score files
+Removing 22 SNPs with Chi^2 > 80; 1085372 remain
+Read in summary statistics [12/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Out of 7013378 SNPs, 1085394 remain after merging with LD-score files
+Removing 143 SNPs with Chi^2 > 80; 1085251 remain
+Read in summary statistics [13/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Out of 7013166 SNPs, 1085394 remain after merging with LD-score files
+Removing 7 SNPs with Chi^2 > 80; 1085387 remain
+Read in summary statistics [14/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Out of 7013344 SNPs, 1085394 remain after merging with LD-score files
+Removing 46 SNPs with Chi^2 > 80; 1085348 remain
+Read in summary statistics [15/15] from: /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Out of 7013387 SNPs, 1085394 remain after merging with LD-score files
+Removing 2 SNPs with Chi^2 > 80; 1085392 remain
+h2:0.2701(0.0302)
+
+Lambda GC:1.0895
+Mean Chi^2:1.1804
+Intercept: 1.0215(0.0097)
+Ratio: 0.1195(0.0538)
+Partitioning the heritability over the annotations
+1209780 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz
+Mean Z*Z:1.0096
+Cross trait Intercept: 0.858(0.0095)
+cov_g:0.254(0.0307)
+Partitioning the genetic covariance over the annotations
+1209714 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz
+Mean Z*Z:-0.0625
+Cross trait Intercept: -0.0424(0.0061)
+cov_g:-0.0225(0.0165)
+Partitioning the genetic covariance over the annotations
+1209246 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz
+Mean Z*Z:-0.04
+Cross trait Intercept: -0.0379(0.007)
+cov_g:0.0028(0.0153)
+Partitioning the genetic covariance over the annotations
+1209366 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz
+Mean Z*Z:-0.0627
+Cross trait Intercept: -0.055(0.0067)
+cov_g:-0.0059(0.0157)
+Partitioning the genetic covariance over the annotations
+1209629 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz
+Mean Z*Z:-0.0579
+Cross trait Intercept: -0.0479(0.0067)
+cov_g:-0.0125(0.0155)
+Partitioning the genetic covariance over the annotations
+1209124 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Mean Z*Z:6e-04
+Cross trait Intercept: -0.0049(0.0066)
+cov_g:0.0071(0.0171)
+Partitioning the genetic covariance over the annotations
+1209488 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.0127
+Cross trait Intercept: 0.0047(0.0068)
+cov_g:0.0095(0.0154)
+Partitioning the genetic covariance over the annotations
+1209414 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0168
+Cross trait Intercept: 0.0227(0.006)
+cov_g:-0.018(0.016)
+Partitioning the genetic covariance over the annotations
+1209779 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.0261
+Cross trait Intercept: 0.0277(0.0067)
+cov_g:-0.0102(0.0155)
+Partitioning the genetic covariance over the annotations
+1209832 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.0044
+Cross trait Intercept: 0.0135(0.0061)
+cov_g:-0.0176(0.0159)
+Partitioning the genetic covariance over the annotations
+1209709 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:-0.0354
+Cross trait Intercept: -0.0253(0.0063)
+cov_g:-0.0108(0.0138)
+Partitioning the genetic covariance over the annotations
+1209847 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0437
+Cross trait Intercept: 0.0338(0.0066)
+cov_g:0.0148(0.0135)
+Partitioning the genetic covariance over the annotations
+1209808 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.004
+Cross trait Intercept: 0.004(0.0062)
+cov_g:0.003(0.0166)
+Partitioning the genetic covariance over the annotations
+1209852 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.0127
+Cross trait Intercept: 0.005(0.0057)
+cov_g:0.0099(0.0144)
+Partitioning the genetic covariance over the annotations
+h2:0.2975(0.0345)
+
+Lambda GC:1.1019
+Mean Chi^2:1.1941
+Intercept: 1.017(0.0108)
+Ratio: 0.0876(0.0556)
+Partitioning the heritability over the annotations
+1209668 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz
+Mean Z*Z:-0.0605
+Cross trait Intercept: -0.0342(0.006)
+cov_g:-0.0297(0.0174)
+Partitioning the genetic covariance over the annotations
+1209200 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz
+Mean Z*Z:-0.0421
+Cross trait Intercept: -0.0393(0.0065)
+cov_g:0.0034(0.015)
+Partitioning the genetic covariance over the annotations
+1209320 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz
+Mean Z*Z:-0.0711
+Cross trait Intercept: -0.0604(0.0063)
+cov_g:-0.0092(0.0154)
+Partitioning the genetic covariance over the annotations
+1209583 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz
+Mean Z*Z:-0.0677
+Cross trait Intercept: -0.0503(0.0063)
+cov_g:-0.0177(0.0146)
+Partitioning the genetic covariance over the annotations
+1209104 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Mean Z*Z:-0.0238
+Cross trait Intercept: -0.0206(0.007)
+cov_g:7e-04(0.0174)
+Partitioning the genetic covariance over the annotations
+1209442 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.01
+Cross trait Intercept: 0.0136(0.0065)
+cov_g:-0.0055(0.0151)
+Partitioning the genetic covariance over the annotations
+1209368 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0047
+Cross trait Intercept: 0.0134(0.0061)
+cov_g:-0.0196(0.0168)
+Partitioning the genetic covariance over the annotations
+1209733 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.0132
+Cross trait Intercept: 0.021(0.0068)
+cov_g:-0.0182(0.0166)
+Partitioning the genetic covariance over the annotations
+1209786 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:-0.0035
+Cross trait Intercept: -0.0028(0.0058)
+cov_g:-0.002(0.0151)
+Partitioning the genetic covariance over the annotations
+1209663 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:-0.0879
+Cross trait Intercept: -0.0681(0.0061)
+cov_g:-0.0314(0.0146)
+Partitioning the genetic covariance over the annotations
+1209801 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0534
+Cross trait Intercept: 0.0389(0.0066)
+cov_g:0.0227(0.0136)
+Partitioning the genetic covariance over the annotations
+1209762 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:-0.018
+Cross trait Intercept: -0.0218(0.0063)
+cov_g:0.0074(0.017)
+Partitioning the genetic covariance over the annotations
+1209806 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/PLT-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:-0.0176
+Cross trait Intercept: -0.0174(0.006)
+cov_g:6e-04(0.0146)
+Partitioning the genetic covariance over the annotations
+h2:0.2199(0.0478)
+
+Lambda GC:1.0864
+Mean Chi^2:1.1353
+Intercept: 1.0105(0.0121)
+Ratio: 0.0777(0.0896)
+Partitioning the heritability over the annotations
+1209468 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz
+Mean Z*Z:0.6721
+Cross trait Intercept: 0.5385(0.0122)
+cov_g:0.2(0.0464)
+Partitioning the genetic covariance over the annotations
+1209588 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz
+Mean Z*Z:0.6333
+Cross trait Intercept: 0.5014(0.0121)
+cov_g:0.1974(0.0465)
+Partitioning the genetic covariance over the annotations
+1209814 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz
+Mean Z*Z:0.5502
+Cross trait Intercept: 0.4335(0.013)
+cov_g:0.173(0.0478)
+Partitioning the genetic covariance over the annotations
+1209184 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Mean Z*Z:0.0517
+Cross trait Intercept: 0.0531(0.0059)
+cov_g:2e-04(0.0159)
+Partitioning the genetic covariance over the annotations
+1209570 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.0193
+Cross trait Intercept: 0.0219(0.0065)
+cov_g:0.0111(0.0148)
+Partitioning the genetic covariance over the annotations
+1209496 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0833
+Cross trait Intercept: 0.0757(0.0056)
+cov_g:0.0208(0.016)
+Partitioning the genetic covariance over the annotations
+1209861 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.0351
+Cross trait Intercept: 0.0235(0.0061)
+cov_g:0.0283(0.0175)
+Partitioning the genetic covariance over the annotations
+1209914 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:-9e-04
+Cross trait Intercept: 0.0109(0.0066)
+cov_g:-0.0308(0.0173)
+Partitioning the genetic covariance over the annotations
+1209791 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:-0.0181
+Cross trait Intercept: -0.0219(0.0063)
+cov_g:-0.0019(0.0175)
+Partitioning the genetic covariance over the annotations
+1209929 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0162
+Cross trait Intercept: 0.0091(0.0067)
+cov_g:0.0034(0.0142)
+Partitioning the genetic covariance over the annotations
+1209890 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:-0.011
+Cross trait Intercept: -0.0111(0.0072)
+cov_g:0.0013(0.0183)
+Partitioning the genetic covariance over the annotations
+1209934 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:-0.0085
+Cross trait Intercept: -0.0125(0.0067)
+cov_g:0.0075(0.0161)
+Partitioning the genetic covariance over the annotations
+h2:0.2221(0.0476)
+
+Lambda GC:1.1082
+Mean Chi^2:1.2124
+Intercept: 1.0346(0.0153)
+Ratio: 0.1628(0.072)
+Partitioning the heritability over the annotations
+1209432 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz
+Mean Z*Z:1.068
+Cross trait Intercept: 0.8911(0.0152)
+cov_g:0.2238(0.0467)
+Partitioning the genetic covariance over the annotations
+1209431 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz
+Mean Z*Z:0.8567
+Cross trait Intercept: 0.7189(0.0141)
+cov_g:0.1745(0.0455)
+Partitioning the genetic covariance over the annotations
+1208776 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Mean Z*Z:0.0701
+Cross trait Intercept: 0.0812(0.0067)
+cov_g:-0.0084(0.0153)
+Partitioning the genetic covariance over the annotations
+1209174 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.046
+Cross trait Intercept: 0.06(0.0075)
+cov_g:-0.0045(0.0161)
+Partitioning the genetic covariance over the annotations
+1209028 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0393
+Cross trait Intercept: 0.0413(0.0064)
+cov_g:-0.0015(0.0134)
+Partitioning the genetic covariance over the annotations
+1209393 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.028
+Cross trait Intercept: 0.018(0.0063)
+cov_g:0.0157(0.0151)
+Partitioning the genetic covariance over the annotations
+1209446 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.0114
+Cross trait Intercept: 0.0166(0.0059)
+cov_g:-0.0213(0.0167)
+Partitioning the genetic covariance over the annotations
+1209323 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.0214
+Cross trait Intercept: 0.0129(0.0068)
+cov_g:0.001(0.0174)
+Partitioning the genetic covariance over the annotations
+1209461 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0293
+Cross trait Intercept: 0.0248(0.0067)
+cov_g:0.0042(0.0126)
+Partitioning the genetic covariance over the annotations
+1209422 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0486
+Cross trait Intercept: 0.0466(0.0072)
+cov_g:0.0023(0.0167)
+Partitioning the genetic covariance over the annotations
+1209466 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RBC-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.0177
+Cross trait Intercept: 0.0196(0.0066)
+cov_g:-8e-04(0.0158)
+Partitioning the genetic covariance over the annotations
+h2:0.2204(0.0464)
+
+Lambda GC:1.1113
+Mean Chi^2:1.2029
+Intercept: 1.0288(0.0151)
+Ratio: 0.142(0.0743)
+Partitioning the heritability over the annotations
+1209558 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz
+Mean Z*Z:0.9671
+Cross trait Intercept: 0.8215(0.0143)
+cov_g:0.1872(0.0455)
+Partitioning the genetic covariance over the annotations
+1208880 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Mean Z*Z:0.0739
+Cross trait Intercept: 0.0758(0.0065)
+cov_g:0.0024(0.0151)
+Partitioning the genetic covariance over the annotations
+1209266 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.049
+Cross trait Intercept: 0.0512(0.0066)
+cov_g:0.0099(0.013)
+Partitioning the genetic covariance over the annotations
+1209148 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0384
+Cross trait Intercept: 0.0398(0.006)
+cov_g:0.0025(0.0136)
+Partitioning the genetic covariance over the annotations
+1209513 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.022
+Cross trait Intercept: 0.0203(0.0062)
+cov_g:0.0011(0.0149)
+Partitioning the genetic covariance over the annotations
+1209566 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.0097
+Cross trait Intercept: 0.0161(0.0063)
+cov_g:-0.0198(0.0173)
+Partitioning the genetic covariance over the annotations
+1209443 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.0224
+Cross trait Intercept: 0.0133(0.0068)
+cov_g:0.0011(0.0175)
+Partitioning the genetic covariance over the annotations
+1209581 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0248
+Cross trait Intercept: 0.0261(0.0066)
+cov_g:-0.0041(0.0127)
+Partitioning the genetic covariance over the annotations
+1209542 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0392
+Cross trait Intercept: 0.0462(0.0072)
+cov_g:-0.0067(0.016)
+Partitioning the genetic covariance over the annotations
+1209586 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/RET-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.0185
+Cross trait Intercept: 0.0197(0.0065)
+cov_g:-0.0026(0.0155)
+Partitioning the genetic covariance over the annotations
+h2:0.1707(0.0478)
+
+Lambda GC:1.0772
+Mean Chi^2:1.1448
+Intercept: 1.0091(0.0155)
+Ratio: 0.0631(0.107)
+Partitioning the heritability over the annotations
+1209131 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz
+Mean Z*Z:0.0517
+Cross trait Intercept: 0.0467(0.0063)
+cov_g:0.0125(0.0155)
+Partitioning the genetic covariance over the annotations
+1209517 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.0432
+Cross trait Intercept: 0.0377(0.0064)
+cov_g:0.0248(0.0137)
+Partitioning the genetic covariance over the annotations
+1209411 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0416
+Cross trait Intercept: 0.0353(0.0062)
+cov_g:0.0157(0.0149)
+Partitioning the genetic covariance over the annotations
+1209776 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.0305
+Cross trait Intercept: 0.0173(0.0063)
+cov_g:0.0198(0.0164)
+Partitioning the genetic covariance over the annotations
+1209829 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.0111
+Cross trait Intercept: 0.0136(0.0063)
+cov_g:-0.0139(0.0165)
+Partitioning the genetic covariance over the annotations
+1209706 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:-0.011
+Cross trait Intercept: -0.0157(0.007)
+cov_g:-0.003(0.0165)
+Partitioning the genetic covariance over the annotations
+1209844 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0193
+Cross trait Intercept: 0.023(0.0066)
+cov_g:-0.0097(0.0129)
+Partitioning the genetic covariance over the annotations
+1209805 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0146
+Cross trait Intercept: 0.0202(0.0075)
+cov_g:-0.0079(0.0169)
+Partitioning the genetic covariance over the annotations
+1209849 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/IRF-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:-0.0045
+Cross trait Intercept: -1e-04(0.0069)
+cov_g:-0.0014(0.0151)
+Partitioning the genetic covariance over the annotations
+h2:0.2105(0.032)
+
+Lambda GC:1.1113
+Mean Chi^2:1.2079
+Intercept: 1.0338(0.0138)
+Ratio: 0.1626(0.0666)
+Partitioning the heritability over the annotations
+1209177 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz
+Mean Z*Z:0.5128
+Cross trait Intercept: 0.4195(0.0095)
+cov_g:0.1213(0.0274)
+Partitioning the genetic covariance over the annotations
+1209169 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.0484
+Cross trait Intercept: 0.0492(0.0085)
+cov_g:0.0119(0.0217)
+Partitioning the genetic covariance over the annotations
+1209263 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.0533
+Cross trait Intercept: 0.0193(0.0079)
+cov_g:0.0526(0.0171)
+Partitioning the genetic covariance over the annotations
+1209302 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:-0.0032
+Cross trait Intercept: 0.0021(0.0059)
+cov_g:-0.0016(0.0139)
+Partitioning the genetic covariance over the annotations
+1209187 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.2204
+Cross trait Intercept: 0.1981(0.0074)
+cov_g:0.0243(0.0146)
+Partitioning the genetic covariance over the annotations
+1209324 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0192
+Cross trait Intercept: 0.0187(0.0076)
+cov_g:0.002(0.011)
+Partitioning the genetic covariance over the annotations
+1209278 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0964
+Cross trait Intercept: 0.099(0.0062)
+cov_g:-0.0097(0.0129)
+Partitioning the genetic covariance over the annotations
+1209324 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.0662
+Cross trait Intercept: 0.0488(0.0056)
+cov_g:0.0211(0.0134)
+Partitioning the genetic covariance over the annotations
+h2:0.2193(0.0264)
+
+Lambda GC:1.0988
+Mean Chi^2:1.1856
+Intercept: 1.0119(0.0121)
+Ratio: 0.0641(0.0654)
+Partitioning the heritability over the annotations
+1209297 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz
+Mean Z*Z:0.1333
+Cross trait Intercept: 0.117(0.007)
+cov_g:0.0299(0.0162)
+Partitioning the genetic covariance over the annotations
+1209645 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.1107
+Cross trait Intercept: 0.0844(0.007)
+cov_g:0.0478(0.0176)
+Partitioning the genetic covariance over the annotations
+1209688 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.0083
+Cross trait Intercept: 0.0203(0.0062)
+cov_g:-0.0083(0.016)
+Partitioning the genetic covariance over the annotations
+1209569 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.0739
+Cross trait Intercept: 0.0748(0.0063)
+cov_g:-0.0022(0.0136)
+Partitioning the genetic covariance over the annotations
+1209704 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0701
+Cross trait Intercept: 0.0659(0.007)
+cov_g:0.0063(0.0121)
+Partitioning the genetic covariance over the annotations
+1209664 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0098
+Cross trait Intercept: 0.0228(0.0071)
+cov_g:-0.0115(0.0139)
+Partitioning the genetic covariance over the annotations
+1209709 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/NE-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.0425
+Cross trait Intercept: 0.0428(0.007)
+cov_g:-4e-04(0.0146)
+Partitioning the genetic covariance over the annotations
+h2:0.1205(0.0397)
+
+Lambda GC:1.0588
+Mean Chi^2:1.1237
+Intercept: 1.029(0.0121)
+Ratio: 0.2345(0.0976)
+Partitioning the heritability over the annotations
+1209635 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz
+Mean Z*Z:0.3712
+Cross trait Intercept: 0.3131(0.009)
+cov_g:0.0826(0.0252)
+Partitioning the genetic covariance over the annotations
+1209614 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.054
+Cross trait Intercept: 0.0405(0.006)
+cov_g:0.026(0.0136)
+Partitioning the genetic covariance over the annotations
+1209497 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.0672
+Cross trait Intercept: 0.0676(0.0073)
+cov_g:0.0046(0.015)
+Partitioning the genetic covariance over the annotations
+1209633 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:-0.0043
+Cross trait Intercept: 0.0019(0.0066)
+cov_g:-0.0142(0.0115)
+Partitioning the genetic covariance over the annotations
+1209590 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0077
+Cross trait Intercept: -0.0045(0.0064)
+cov_g:0.0171(0.0146)
+Partitioning the genetic covariance over the annotations
+1209636 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:-1e-04
+Cross trait Intercept: -0.0095(0.0059)
+cov_g:0.0169(0.0134)
+Partitioning the genetic covariance over the annotations
+h2:0.0968(0.0277)
+
+Lambda GC:1.0345
+Mean Chi^2:1.0632
+Intercept: 1.002(0.011)
+Ratio: 0.0318(0.1738)
+Partitioning the heritability over the annotations
+1209979 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz
+Mean Z*Z:0.0484
+Cross trait Intercept: 0.0387(0.006)
+cov_g:0.011(0.015)
+Partitioning the genetic covariance over the annotations
+1209860 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.0186
+Cross trait Intercept: 0.0113(0.0069)
+cov_g:0.0069(0.0173)
+Partitioning the genetic covariance over the annotations
+1209998 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0287
+Cross trait Intercept: 0.0361(0.007)
+cov_g:0.0022(0.0126)
+Partitioning the genetic covariance over the annotations
+1209955 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0098
+Cross trait Intercept: 0.0122(0.0054)
+cov_g:-0.0091(0.0131)
+Partitioning the genetic covariance over the annotations
+1210001 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/EO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:-0.0048
+Cross trait Intercept: -0.0149(0.0058)
+cov_g:0.0182(0.0121)
+Partitioning the genetic covariance over the annotations
+h2:0.0543(0.019)
+
+Lambda GC:1.0225
+Mean Chi^2:1.0312
+Intercept: 0.9995(0.0077)
+Ratio: -0.0162(0.2463)
+Partitioning the heritability over the annotations
+1209909 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz
+Mean Z*Z:0.0325
+Cross trait Intercept: 0.012(0.0061)
+cov_g:0.027(0.015)
+Partitioning the genetic covariance over the annotations
+1210047 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0016
+Cross trait Intercept: -0.0014(0.0056)
+cov_g:0.0117(0.0124)
+Partitioning the genetic covariance over the annotations
+1210008 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0033
+Cross trait Intercept: -0.0077(0.0063)
+cov_g:0.013(0.0136)
+Partitioning the genetic covariance over the annotations
+1210052 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/BASO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0
+Cross trait Intercept: -0.0078(0.0062)
+cov_g:0.0083(0.0135)
+Partitioning the genetic covariance over the annotations
+h2:0.1411(0.0227)
+
+Lambda GC:1.0741
+Mean Chi^2:1.1281
+Intercept: 1.0139(0.0104)
+Ratio: 0.1085(0.0812)
+Partitioning the heritability over the annotations
+1209929 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz
+Mean Z*Z:0.0079
+Cross trait Intercept: 0.0023(0.0066)
+cov_g:0.0075(0.0119)
+Partitioning the genetic covariance over the annotations
+1209885 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.3295
+Cross trait Intercept: 0.3037(0.0067)
+cov_g:0.0309(0.0138)
+Partitioning the genetic covariance over the annotations
+1209931 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.2705
+Cross trait Intercept: 0.2658(0.0071)
+cov_g:0.0077(0.0135)
+Partitioning the genetic covariance over the annotations
+h2:0.0376(0.0153)
+
+Lambda GC:1.0375
+Mean Chi^2:1.0374
+Intercept: 1.0092(0.0088)
+Ratio: 0.2461(0.2356)
+Partitioning the heritability over the annotations
+1210023 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz
+Mean Z*Z:0.0855
+Cross trait Intercept: 0.0939(0.0056)
+cov_g:-0.0085(0.0112)
+Partitioning the genetic covariance over the annotations
+1210069 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/MO-FSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.2351
+Cross trait Intercept: 0.2256(0.0057)
+cov_g:0.0078(0.0114)
+Partitioning the genetic covariance over the annotations
+h2:0.204(0.0229)
+
+Lambda GC:1.1238
+Mean Chi^2:1.178
+Intercept: 1.0221(0.0096)
+Ratio: 0.1244(0.054)
+Partitioning the heritability over the annotations
+1210028 SNPs remain after merging /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gz and /local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz summary statistics
+Results for covariance between:/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-SSC.sumstats.gzand/local1/scratch/pazweifel/sumstats_blood/munged_sumstats/LY-FSC.sumstats.gz
+Mean Z*Z:0.4959
+Cross trait Intercept: 0.4321(0.0073)
+cov_g:0.0868(0.0169)
+Partitioning the genetic covariance over the annotations
+h2:0.0916(0.017)
+
+Lambda GC:1.0527
+Mean Chi^2:1.0812
+Intercept: 1.0053(0.0091)
+Ratio: 0.0655(0.1127)
+Partitioning the heritability over the annotations
+Analysis ended at 2026-03-13 01:52:58.51538
+Analysis took 22 minutes and 41.1375117301941 seconds

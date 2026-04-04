@@ -1,0 +1,6 @@
+The preparation of 12 summary statistics for use in Genomic SEM began at: 2025-12-10 12:42:45.537771
+Please note that the files should be in the same order that they were listed for the ldsc function
+Reading in reference file
+Applying MAF filer of 0.01 to the reference file.
+Number of requested cores(30) greater than the number of files (12). Deferring to the lowest number
+As parallel sumstats was requested, logs of each file will be saved separately

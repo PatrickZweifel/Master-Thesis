@@ -1,0 +1,11 @@
+The preparation of 12 summary statistics for use in Genomic SEM began at: 2026-02-05 15:27:36.455751
+Please note that the files should be in the same order that they were listed for the ldsc function
+Reading in reference file
+Applying MAF filer of 0.01 to the reference file.
+Number of requested cores(30) greater than the number of files (12). Deferring to the lowest number
+As parallel sumstats was requested, logs of each file will be saved separately
+     
+After merging across all summary statistics using listwise deletion, performing QC, and merging with the reference file, there are 8142397 SNPs left in the final multivariate summary statistics file
+Sumstats finished running at 2026-02-05 15:42:22.886187
+Running sumstats for all files took 14 minutes and 46.4304356575012 seconds
+Please check the log file PLTSSC_PLTFSC_RBCSSC_RBCFSC_RETFSC_IRFFSC_NEFSC_EOSSC_EOFSC_BASOFSC_LYSSC_LYFSC_sumstats.log to ensure that all columns were interpreted correctly and no warnings were issued for any of the summary statistics files.

@@ -1,0 +1,2 @@
+Preparing summary statistics for file: /local1/scratch/pazweifel/sumstats_blood/sumstats/RBC-FSC.tsv
+Found REF and ALT columns in the summary statistic file /local1/scratch/pazweifel/sumstats_blood/sumstats/RBC-FSC.tsv. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)

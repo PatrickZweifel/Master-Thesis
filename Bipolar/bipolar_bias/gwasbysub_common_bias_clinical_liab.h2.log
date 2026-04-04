@@ -1,0 +1,951 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2-cts /local1/scratch/pazweifel/sumstats_ambits/factor_sumstats_munged/gwasbysub_common_bias_clinical_liab.sumstats.gz \
+--ref-ld-chr /local1/hdata/REF/baseline_v2.2/Variant_effects_baselineLD_v2.2_baselineLD. \
+--out /local1/home/pazweifel/src/bipolar_bias/gwasbysub_common_bias_clinical_liab.h2 \
+--ref-ld-chr-cts /local1/scratch/pazweifel/single_cell_Duncan_og/single_cell_Duncan_og.local.ldcts \
+--w-ld-chr /local1/scratch/pazweifel/heritability_analysis/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC. 
+
+Beginning analysis at Thu Feb 26 10:55:00 2026
+Reading summary statistics from /local1/scratch/pazweifel/sumstats_ambits/factor_sumstats_munged/gwasbysub_common_bias_clinical_liab.sumstats.gz ...
+Read summary statistics for 883442 SNPs.
+Reading reference panel LD Score from /local1/hdata/REF/baseline_v2.2/Variant_effects_baselineLD_v2.2_baselineLD.[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1195112 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /local1/scratch/pazweifel/heritability_analysis/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC.[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1187349 SNPs.
+After merging with reference panel LD, 806049 SNPs remain.
+After merging with regression SNP LD, 803932 SNPs remain.
+Removed 0 SNPs with chi^2 > 80 (803932 SNPs remain)
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster0.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster1.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster10.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster100.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster101.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster102.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster103.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster104.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster105.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster106.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster107.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster108.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster109.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster11.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster110.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster111.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster112.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster113.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster114.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster115.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster116.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster117.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster118.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster119.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster12.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster120.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster121.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster122.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster123.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster124.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster125.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster126.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster127.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster128.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster129.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster13.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster130.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster131.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster132.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster133.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster134.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster135.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster136.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster137.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster138.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster139.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster14.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster140.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster141.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster142.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster143.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster144.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster145.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster146.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster147.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster148.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster149.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster15.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster150.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster151.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster152.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster153.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster154.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster155.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster156.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster157.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster158.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster159.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster16.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster160.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster161.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster162.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster163.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster164.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster165.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster166.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster167.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster168.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster169.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster17.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster170.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster171.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster172.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster173.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster174.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster175.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster176.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster177.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster178.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster179.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster18.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster180.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster181.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster182.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster183.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster184.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster185.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster186.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster187.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster188.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster189.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster19.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster190.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster191.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster192.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster193.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster194.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster195.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster196.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster197.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster198.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster199.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster2.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster20.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster200.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster201.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster202.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster203.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster204.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster205.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster206.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster207.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster208.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster209.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster21.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster210.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster211.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster212.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster213.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster214.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster215.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster216.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster217.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster218.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster219.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster22.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster220.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster221.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster222.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster223.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster224.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster225.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster226.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster227.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster228.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster229.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster23.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster230.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster231.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster232.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster233.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster234.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster235.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster236.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster237.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster238.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster239.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster24.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster240.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster241.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster242.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster243.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster244.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster245.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster246.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster247.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster248.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster249.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster25.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster250.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster251.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster252.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster253.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster254.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster255.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster256.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster257.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster258.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster259.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster26.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster260.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster261.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster262.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster263.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster264.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster265.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster266.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster267.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster268.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster269.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster27.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster270.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster271.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster272.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster273.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster274.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster275.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster276.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster277.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster278.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster279.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster28.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster280.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster281.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster282.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster283.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster284.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster285.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster286.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster287.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster288.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster289.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster29.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster290.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster291.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster292.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster293.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster294.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster295.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster296.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster297.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster298.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster299.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster3.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster30.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster300.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster301.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster302.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster303.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster304.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster305.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster306.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster307.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster308.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster309.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster31.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster310.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster311.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster312.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster313.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster314.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster315.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster316.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster317.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster318.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster319.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster32.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster320.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster321.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster322.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster323.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster324.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster325.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster326.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster327.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster328.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster329.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster33.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster330.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster331.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster332.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster333.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster334.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster335.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster336.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster337.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster338.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster339.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster34.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster340.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster341.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster342.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster343.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster344.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster345.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster346.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster347.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster348.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster349.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster35.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster350.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster351.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster352.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster353.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster354.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster355.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster356.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster357.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster358.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster359.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster36.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster360.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster361.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster362.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster363.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster364.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster365.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster366.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster367.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster368.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster369.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster37.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster370.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster371.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster372.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster373.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster374.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster375.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster376.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster377.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster378.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster379.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster38.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster380.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster381.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster382.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster383.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster384.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster385.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster386.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster387.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster388.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster389.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster39.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster390.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster391.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster392.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster393.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster394.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster395.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster396.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster397.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster398.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster399.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster4.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster40.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster400.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster401.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster402.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster403.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster404.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster405.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster406.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster407.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster408.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster409.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster41.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster410.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster411.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster412.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster413.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster414.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster415.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster416.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster417.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster418.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster419.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster42.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster420.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster421.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster422.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster423.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster424.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster425.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster426.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster427.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster428.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster429.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster43.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster430.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster431.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster432.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster433.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster434.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster435.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster436.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster437.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster438.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster439.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster44.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster440.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster441.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster442.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster443.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster444.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster445.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster446.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster447.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster448.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster449.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster45.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster450.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster451.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster452.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster453.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster454.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster455.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster456.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster457.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster458.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster459.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster46.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster460.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster47.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster48.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster49.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster5.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster50.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster51.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster52.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster53.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster54.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster55.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster56.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster57.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster58.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster59.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster6.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster60.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster61.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster62.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster63.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster64.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster65.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster66.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster67.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster68.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster69.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster7.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster70.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster71.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster72.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster73.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster74.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster75.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster76.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster77.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster78.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster79.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster8.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster80.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster81.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster82.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster83.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster84.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster85.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster86.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster87.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster88.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster89.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster9.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster90.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster91.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster92.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster93.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster94.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster95.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster96.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster97.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster98.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Reading cts reference panel LD Score from /local1/scratch/pazweifel/single_cell_Duncan_og/Cluster99.,/local1/scratch/pazweifel/single_cell_Duncan_og/Control.[1-22] ... (ldscore_fromlist)
+Performing regression.
+Results printed to /local1/home/pazweifel/src/bipolar_bias/gwasbysub_common_bias_clinical_liab.h2.cell_type_results.txt
+Analysis finished at Thu Feb 26 11:36:28 2026
+Total time elapsed: 41.0m:28.86s

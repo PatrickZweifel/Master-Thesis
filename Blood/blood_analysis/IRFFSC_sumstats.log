@@ -1,0 +1,21 @@
+Preparing summary statistics for file: /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv
+Found REF and ALT columns in the summary statistic file /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the SNP column as the SNP column.
+Interpreting the REF column as the A1 column.
+Interpreting the ALT column as the A2 column.
+Interpreting the EFFECT column as the effect column.
+Interpreting the INFO column as the INFO column.
+Interpreting the P column as the P column.
+Interpreting the N column as the N column.
+Interpreting the MAF column as the MAF column.
+Interpreting the SE column as the SE column.
+Interpreting the DIRECTION column as the DIRECTION column.
+745097 rows were removed from the /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file due to entries that were duplicated for rsID. These are removed as they likely reflect multiallelic variants.
+Merging file: /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv with the reference file: /local1/scratch/pazweifel/jolien_paper_sumstats/reference.1000G.maf.0.005.txt
+26104800 rows present in the full /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file.
+17917266 rows were removed from the /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file as the rsIDs for these SNPs were not present in the reference file.
+The effect column was determined NOT to be coded as an odds ratio (OR) for the /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file based on the median of the effect column being close to 0.
+11 row(s) were removed from the/local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+10 row(s) were removed from the /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+44949rows were removed from the /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv summary statistics file due to INFO values below the designated threshold of 0.6
+8142564 SNPs are left in the summary statistics file /local1/scratch/pazweifel/sumstats_blood/sumstats_gsemcompatible/IRF-FSC.tsv after QC and merging with the reference file.

@@ -1,0 +1,37 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gz \
+--ref-ld-chr /local1/hdata/REF/baseline_v2.2/Variant_effects_baselineLD_v2.2_baselineLD.,/local1/scratch/pazweifel/single_cell_Duncan_og_combined/singlecell. \
+--out /local1/home/pazweifel/src/sldsc_clinical \
+--overlap-annot  \
+--frqfile-chr /local1/scratch/pazweifel/heritability_analysis/1000G_Phase3_frq/1000G.EUR.QC. \
+--w-ld-chr /local1/scratch/pazweifel/heritability_analysis/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC. \
+--print-coefficients  
+
+Beginning analysis at Mon Feb 16 11:59:01 2026
+Reading summary statistics from /local1/scratch/pazweifel/heritability_analysis/ldsc_correlation_bipolar/sumstats/bip2024_eur_clinical_no23andMe_wbeta_use_neff.sumstats.gz ...
+Read summary statistics for 4237071 SNPs.
+Reading reference panel LD Score from /local1/hdata/REF/baseline_v2.2/Variant_effects_baselineLD_v2.2_baselineLD.,/local1/scratch/pazweifel/single_cell_Duncan_og_combined/singlecell.[1-22] ... (ldscore_fromlist)
+Error parsing reference panel LD Score.
+Traceback (most recent call last):
+  File "/local1/home/pazweifel/bin/ldsc/ldsc.py", line 644, in <module>
+    sumstats.estimate_h2(args, log)
+  File "/local1/home/pazweifel/bin/ldsc/ldscore/sumstats.py", line 326, in estimate_h2
+    args, log, args.h2)
+  File "/local1/home/pazweifel/bin/ldsc/ldscore/sumstats.py", line 243, in _read_ld_sumstats
+    ref_ld = _read_ref_ld(args, log)
+  File "/local1/home/pazweifel/bin/ldsc/ldscore/sumstats.py", line 82, in _read_ref_ld
+    'reference panel LD Score', ps.ldscore_fromlist)
+  File "/local1/home/pazweifel/bin/ldsc/ldscore/sumstats.py", line 155, in _read_chr_split_files
+    raise e
+ValueError: LD Scores for concatenation must have identical SNP columns.
+
+Analysis finished at Mon Feb 16 12:00:27 2026
+Total time elapsed: 1.0m:25.32s

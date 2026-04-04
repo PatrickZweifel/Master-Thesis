@@ -1,0 +1,64 @@
+Standard abbreviation	Long name	Number of participants contributing to GWAS
+PLT-SSC	Platelet side scatter	29675
+PLT-SFL	Platelet side fluorescence	29678
+PLT-FSC	Platelet forward scatter	29662
+PLT-SSC-DW	Platelet side scatter distribution width	29658
+PLT-SFL-DW	Platelet side fluorescence distribution width	29552
+PLT-FSC-DW	Platelet forward scatter distribution width	29618
+H-IPF	High fluorescence immature platelet fraction	36829
+IPF#	Immature platelet count	36618
+IPF%	Immature platelet fraction	36615
+P-LCR	Platelet large cell ratio	37935
+RBC-SSC	Red blood cell side scatter	30528
+RBC-SFL	Red blood cell side fluorescence	30551
+RBC-FSC	Red blood cell forward scatter	38005
+RBC-SFL-DW	Red blood cell side fluorescence distribution width	30565
+RBC-FSC-DW	Red blood cell forward scatter distribution width	30417
+Hyper-He	Hyper-haemoglobinised percentage of red cells	38553
+MacroR	Macrocytic percentage of red cells	37432
+MicroR	Microcytic percentage of red cells	39184
+RBC-He	Red blood cell haemoglobin equivalent	38200
+RDW-SD	Red cell distribution width — standard deviation	39313
+RET-SFL	Reticulocyte side fluorescence	30485
+RET-FSC	Reticulocyte forward scatter	38277
+HFR	High fluorescent percentage of reticulocytes	37931
+MFR	Medium fluorescent percentage of reticulocytes	39459
+LFR	Low fluorescent percentage of reticulocytes	39470
+RET-He	Reticulocyte haemoglobin equivalent	39127
+IRF-FSC	Immature reticulocyte forward scatter	38711
+Delta-He	Delta of the haemoglobin equivalents	38798
+Delta-HGB	Delta of the red cell haemoglobins	30298
+RPI	Reticulocyte production index	39566
+NE-SSC	Neutrophil side scatter	38341
+NE-SFL	Neutrophil side fluorescence	38336
+NE-FSC	Neutrophil forward scatter	38084
+NE-SSC-DW	Neutrophil side scatter distribution width	39596
+NE-SFL-DW	Neutrophil side fluorescence distribution width	39004
+NE-FSC-DW	Neutrophil forward scatter distribution width	39656
+IG#	Immature granulocyte count	37939
+IG%	Immature granulocyte percentage of white cells	37926
+EO-SSC	Eosinophil side scatter	30328
+EO-SFL	Eosinophil side fluorescence	30531
+EO-FSC	Eosinophil forward scatter	30352
+EO-SSC-DW	Eosinophil side scatter distribution width	29325
+EO-SFL-DW	Eosinophil side fluorescence distribution width	30284
+EO-FSC-DW	Eosinophil forward scatter distribution width	29084
+BASO-SFL	Basophil side fluorescence	30327
+BASO-FSC	Basophil forward scatter	30614
+BASO-SFL-DW	Basophil side fluorescence distribution width	29720
+BASO-FSC-DW	Basophil forward scatter distribution width	30601
+MO-SSC	Monocyte side scatter	39608
+MO-SFL	Monocyte side fluorescence	39586
+MO-FSC	Monocyte forward scatter	39460
+MO-SSC-DW	Monocyte side scatter distribution width	39417
+MO-SFL-DW	Monocyte side fluorescence distribution width	39631
+MO-FSC-DW	Monocyte forward scatter distribution width	39650
+LY-SSC	Lymphocyte side scatter	39646
+LY-SFL	Lymphocyte side fluorescence	39640
+LY-FSC	Lymphocyte forward scatter	38877
+LY-SSC-DW	Lymphocyte side scatter distribution width	39654
+LY-SFL-DW	Lymphocyte side fluorescence distribution width	39647
+LY-FSC-DW	Lymphocyte forward scatter distribution width	39571
+RE-LYMP#	Reactive lymphocyte count	30589
+RE-LYMP(L)%	Reactive percentage of lymphocytes	30240
+RE-LYMP%	Reactive lymphocyte percentage of white cells	30577
