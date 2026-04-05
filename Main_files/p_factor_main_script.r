@@ -81,7 +81,7 @@ wVEG.sumstats.gz:,100090,wVEG,NA,NA
 "
 )
 
-#FROM the Cheesman code files as they fcking could not report them in the paper or the supplementary or the extra tables or wherever
+
 #population.prev <- c(0.0515,0.0509	,0.0337	,0.146	,0.0186	,0.0268	,0.226	,0.0327	,0.141	,0.0949,
 #NA)
 #sample.prev   <- c(rep(0.5,10),NA)trait_names<-c("edu","arts","social","business","natural_sci","ict","engineering","agri","health","services""EA4")
